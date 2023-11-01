@@ -1,0 +1,33 @@
+.wrapper {
+  min-height: 100vh;
+  background: #F6F6F6;
+  background: #26278D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  max-width: 320px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  }
+
+button {
+  width: 44px;
+  height: 44px;
+  background: #26278D;
+  border-radius: 50%;
+}
+
+.main__text {
+  align-self: flex-start;
+  color: rgba(152, 152, 152, 1);
+}
